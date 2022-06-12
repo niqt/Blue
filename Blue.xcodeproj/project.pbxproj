@@ -11,6 +11,7 @@
 		B3FA6DCF27446090007F3B2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA6DCE27446090007F3B2C /* ContentView.swift */; };
 		B3FA6DD127446091007F3B2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FA6DD027446091007F3B2C /* Assets.xcassets */; };
 		B3FA6DD427446091007F3B2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FA6DD327446091007F3B2C /* Preview Assets.xcassets */; };
+		B3FA6DDB2744618E007F3B2C /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FA6DDA2744618D007F3B2C /* BLEManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		B3FA6DCE27446090007F3B2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3FA6DD027446091007F3B2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3FA6DD327446091007F3B2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3FA6DDA2744618D007F3B2C /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		B3FA6DDC2744630F007F3B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		B3FA6DCB27446090007F3B2C /* Blue */ = {
 			isa = PBXGroup;
 			children = (
+				B3FA6DDC2744630F007F3B2C /* Info.plist */,
 				B3FA6DCC27446090007F3B2C /* BlueApp.swift */,
 				B3FA6DCE27446090007F3B2C /* ContentView.swift */,
+				B3FA6DDA2744618D007F3B2C /* BLEManager.swift */,
 				B3FA6DD027446091007F3B2C /* Assets.xcassets */,
 				B3FA6DD227446091007F3B2C /* Preview Content */,
 			);
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3FA6DCF27446090007F3B2C /* ContentView.swift in Sources */,
+				B3FA6DDB2744618E007F3B2C /* BLEManager.swift in Sources */,
 				B3FA6DCD27446090007F3B2C /* BlueApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +278,9 @@
 				DEVELOPMENT_TEAM = AHGUK54A9X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Blue/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Fatti miei";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +310,9 @@
 				DEVELOPMENT_TEAM = AHGUK54A9X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Blue/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Fatti miei";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
